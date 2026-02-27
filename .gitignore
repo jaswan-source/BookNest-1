@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+bower_components/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Build outputs
+build/
+dist/
+out/
+
+# Frontend build
+Project\ Files/Frontend/build/
+Project\ Files/Frontend/.cache/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+.temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Public images uploads
+Project\ Files/Backend/public/images/*
+!Project\ Files/Backend/public/images/.gitkeep
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
