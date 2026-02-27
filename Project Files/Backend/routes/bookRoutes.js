@@ -1,7 +1,7 @@
-import express from "express";
-import Book from "../models/book.js";
-import multer from "multer";
-import path from "path";
+const express = require("express");
+const Book = require("../models/book.js");
+const multer = require("multer");
+const path = require("path");
 
 const router = express.Router();
 
@@ -56,4 +56,4 @@ router.post("/", upload.single("image"), async (req, res) => {
   }
 });
 
-export default router;
+module.exports = router;
